@@ -32,3 +32,22 @@ This script is for educational purposes and fun only. Skills should not be judge
    - Download the `contribute.py` script.  
 3. **Run the Script**  
    Execute the script with your repository link:  
+
+
+
+
+
+## RUN
+
+1. Run the script with maximum commits and frequency:
+   ```bash
+   python contribute.py --max_commits=12 --frequency=60 --repository=git@github.com:user/repo.git
+
+2. Run the script with don't want to commit on weekends:
+    ```bash
+    python contribute.py --no_weekends
+
+3. Use --days_before and --days_after to specify how many days before the current date the script should start committing, and how many days after the current date it will keep committing.
+    ```bash
+    python contribute.py --days_before=10 --days_after=15
+
